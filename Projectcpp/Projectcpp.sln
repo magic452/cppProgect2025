@@ -9,6 +9,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ch01", "..\ch01\ch01.vcxpro
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Toyproject", "..\Toyproject\Toyproject.vcxproj", "{96DAB0EA-F4AC-4A92-93B7-AD21BC5E95E3}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ch05", "ch05", "{7937BBA0-536D-4B36-B180-8D132E370915}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ch05", "..\ch05\ch05.vcxproj", "{696F55D1-CFD0-4CB4-BB9B-1A696D97B860}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,9 +45,20 @@ Global
 		{96DAB0EA-F4AC-4A92-93B7-AD21BC5E95E3}.Release|x64.Build.0 = Release|x64
 		{96DAB0EA-F4AC-4A92-93B7-AD21BC5E95E3}.Release|x86.ActiveCfg = Release|Win32
 		{96DAB0EA-F4AC-4A92-93B7-AD21BC5E95E3}.Release|x86.Build.0 = Release|Win32
+		{696F55D1-CFD0-4CB4-BB9B-1A696D97B860}.Debug|x64.ActiveCfg = Debug|x64
+		{696F55D1-CFD0-4CB4-BB9B-1A696D97B860}.Debug|x64.Build.0 = Debug|x64
+		{696F55D1-CFD0-4CB4-BB9B-1A696D97B860}.Debug|x86.ActiveCfg = Debug|Win32
+		{696F55D1-CFD0-4CB4-BB9B-1A696D97B860}.Debug|x86.Build.0 = Debug|Win32
+		{696F55D1-CFD0-4CB4-BB9B-1A696D97B860}.Release|x64.ActiveCfg = Release|x64
+		{696F55D1-CFD0-4CB4-BB9B-1A696D97B860}.Release|x64.Build.0 = Release|x64
+		{696F55D1-CFD0-4CB4-BB9B-1A696D97B860}.Release|x86.ActiveCfg = Release|Win32
+		{696F55D1-CFD0-4CB4-BB9B-1A696D97B860}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{696F55D1-CFD0-4CB4-BB9B-1A696D97B860} = {7937BBA0-536D-4B36-B180-8D132E370915}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {03AE7D3D-6F68-41CC-B37A-871E5867BBD0}

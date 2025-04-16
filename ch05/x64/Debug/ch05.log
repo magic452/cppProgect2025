@@ -1,0 +1,6 @@
+﻿  main.cpp
+C:\Users\Administrator\Desktop\cppProgect2025\ch05\person.h(44,3): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
+  
+  person.cpp
+  코드를 생성하고 있습니다...
